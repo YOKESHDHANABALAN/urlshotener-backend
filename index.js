@@ -103,12 +103,12 @@ app.post("/forgotPassword", async (req, res) => {
 
           secure: false,
           auth: {
-            user: "masssankar6379@gmail.com",
+            user: "yokeshdhanablan@gmail.com",
             pass: "unptqcckajjquikp",
           },
         });
         let mailOptions = await transporter.sendMail({
-          from: `"mass"<masssankar6379@gmail.com>`,
+          from: `"mass"<yokeshdhanablan@gmail.com>`,
           to: email,
           subject: "Reset Password - Company",
           html: `<h4>Hello,</h4><p>We've Received a Request To Reset The Password For The Staff Account.You Can Reset The Password By Clicking The Link Below.
